@@ -1,0 +1,71 @@
+
+* {
+  font-family: Comic Sans MS;
+  box-sizing: border-box;
+  }
+#header-nav  {
+  background: #d3d3d3;
+  border-radius: 0;
+  border: 2px solid black;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand a {
+  padding-left: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  color: black;
+}
+
+h1{
+  font-size: 2em;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+#chicken, #beef, #sushi {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+section {
+  margin:2px;
+  padding-left: 2px;
+  padding: 2px;
+  background: #d3d3d3;
+}
+
+.navbar-default .navbar-toggle.collapsed {
+  border-color: black;
+}
+.navbar-default .navbar-toggle.collapsed .icon-bar {
+  background-color: black;
+}
+.navbar-default .navbar-toggle.collapsed:hover,
+.navbar-default .navbar-toggle {
+  border-color: white;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+#navbar-menu li {
+  border: 1px solid black;
+}
+
+@media (max-width: 768px) {
+ #navbar-menu {
+    background-color: #d3d3d3;
+    width: 100%;
+    font-weight: bold;
+      }   
+
+}
