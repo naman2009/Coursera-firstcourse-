@@ -1,0 +1,44 @@
+body {
+	background-image: url("wind.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	margin-left: 10px;
+	padding-left: 60px;
+	font-size: 60px;
+	text-shadow: 2px 2px blue;
+}
+p { 
+width: 38%;
+text-align: justify;
+font-size: 20px;
+ }
+  div {
+ 	font-size: 20px;
+ 	color: blue;
+ 	position: fixed;
+ 	bottom: 0;
+ 	padding-left:  500px;
+ }
+ /*#home a {
+ 	position: fixed;
+ 	bottom:  0;
+ 	padding-left: 500px;
+ 	text-align: center;*/
+ 	
+ }
+ /*#home1 a {
+ 	position: fixed;
+ 	bottom: 0;
+ 	padding-left: 570px;
+ 	text-align: center;
+ }
+ #home2 a {
+ 	position: fixed;
+ 	bottom: 0;
+ 	padding-left: 700px;
+ 	text-align: center;
+ 	
+ }*/
